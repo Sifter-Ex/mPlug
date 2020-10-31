@@ -47,11 +47,11 @@
 
 		The M extension provides multiple malware analysis tools to Sifter
 		These tools range from:
-		- Dependancy Walker, 
-		- Oletools for Office Doc analysis, 
-		- VirusTotal Desktop Uploader
-		- Evolve for RAM Dump analysis
-		- REMnux
+			- Dependancy Walker, 
+			- Oletools for Office Doc analysis, 
+			- VirusTotal Desktop Uploader
+			- Evolve for RAM Dump analysis
+			- REMnux
 
 
 ---------------------------------------------------------------------------------------------------------------------
