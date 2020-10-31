@@ -17,7 +17,7 @@
 <br>
 <strong><em>~The Dead Bunny Collective~</em></strong>
 <br />
-*Because enumeration is key*
+*Because Analysis is helpful*
 <br>
 <br>
 
@@ -45,13 +45,13 @@
 
 # Overview
 
-The M extension provides multiple malware analysis tools to Sifter<br>
-These tools range from:
-- Dependancy Walker, 
-- Oletools for Office Doc analysis, 
-- VirusTotal Desktop Uploader
-- Evolve for RAM Dump analysis
-- REMnux
+		The M extension provides multiple malware analysis tools to Sifter
+		These tools range from:
+		- Dependancy Walker, 
+		- Oletools for Office Doc analysis, 
+		- VirusTotal Desktop Uploader
+		- Evolve for RAM Dump analysis
+		- REMnux
 
 
 ---------------------------------------------------------------------------------------------------------------------
