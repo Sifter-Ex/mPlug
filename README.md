@@ -52,6 +52,7 @@
 		- VirusTotal Desktop Uploader
 		- Evolve for RAM Dump analysis
 		- REMnux
+		- Zeek
 
 
 ---------------------------------------------------------------------------------------------------------------------

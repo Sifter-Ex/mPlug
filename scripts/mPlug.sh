@@ -23,21 +23,23 @@ mpopt(){
     ASTAT=$(cat /home/$USER/.config/.anon_status)
     echo -e "${EXC} ${BIGreen}Anonymous: ${BIYellow}${ASTAT}${NC}"
     echo -e " ${W}==================================================\n ${ORNG}Which tool would you like to use?\n ${W}==================================================${NC}"
-    echo -e "\n ${ORNG}1.${W} OleTools            ${ORNG}4.${W} DependancyWalker ${NC}"
-    echo -e " ${ORNG}2.${W} Evolve          ${ORNG}5.${W} Back ${NC}"
-    echo -e " ${ORNG}3.${W} VT-Uploader     "      #${ORNG}6.${W} Back ${NC}"
+    echo -e "\n ${ORNG}1.${W} OleTools           ${ORNG}4.${W} DependancyWalker ${NC}"
+    echo -e " ${ORNG}2.${W} Evolve             ${ORNG}5.${W} Zeek ${NC}"
+    echo -e " ${ORNG}3.${W} VT-Uploader        ${ORNG}6.${W} Back ${NC}"
     echo -e " ${W}"
     echo -n " =============================#?: "
-    read CMM
-    if [[ ${CMM} == "1" ]]; then
-            bash /opt/sifter/modules/mPlug/runtime/oletools.sh
-    elif [[ ${CMM} == "2" ]]; then
-            bash /opt/sifter/modules/mPlug/runtime/evolve.sh
-    elif [[ ${CMM} == "3" ]]; then
-            VirusTotalUploader &
-    elif [[ ${CMM} == "4" ]]; then
-            wine /opt/sifter/modules/mPlug/DepWalk/depends.exe &
-    elif [[ ${CMM} == "5" ]]; then
+    read MPM
+    if [[ ${MPM} == "1" ]]; then
+        bash /opt/sifter/modules/mPlug/runtime/oletools.sh
+    elif [[ ${MPM} == "2" ]]; then
+        bash /opt/sifter/modules/mPlug/runtime/evolve.sh
+    elif [[ ${MPM} == "3" ]]; then
+        VirusTotalUploader &
+    elif [[ ${MPM} == "4" ]]; then
+        wine /opt/sifter/modules/mPlug/DepWalk/depends.exe &
+    elif [[ ${MPM} == "5" ]]; then
+        xterm -e bash /opt/sifter/modules/mPlug/runtime/zeek.sh &
+    elif [[ ${MPM} == "6" ]]; then
             exit
     else
             echo -e "${YLW}[ ${RED}! ${YLW}] ${W}Invalid option chosen, please select the corresponding number\n${LP}eg. ${BIGreen} 2 = Evolve${NC}"
