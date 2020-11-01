@@ -141,6 +141,7 @@ lolcat .inc/ban
 if [[ ! -d '/opt/sifter/modules/mPlug' ]]; then
 	mkdir /opt/sifter/modules/mPlug
 	cp -r ${WORKDIR}/scripts/* -t ${MDIR}
+	cp -r .git -t /opt/sifter/modules/mPlug
 fi
 
 ################
