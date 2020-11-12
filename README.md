@@ -8,7 +8,9 @@
   	<img align="center" src="https://img.shields.io/github/forks/Sifter-Ex/mPlug">
   	<img align="center" src="https://img.shields.io/github/stars/Sifter-Ex/mPlug">		  
 <br>
-	<img align="center" src="https://img.shields.io/badge/@Codename:-m-red">
+	<img align="center" src="https://img.shields.io/badge/Sifter Version-Violet-violet">
+<br />
+	<img align="center" src="https://img.shields.io/badge/@Codename:-c-yellowgreen">
 	<img align="center" src="https://img.shields.io/badge/Version-Alpha-green">
 </p>
 
